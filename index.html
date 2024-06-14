@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- remix icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+    <!-- font -->
+    <link rel="stylesheet" href="assest/font/stylesheet.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="assest/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body data-bs-theme="dark">
+    <!-- background color -->
+    <div class="right-effects"></div>
+    <div class="left-effects"></div>
+    <!-- background color over -->
+
+    <!-- header -->
+    <header class="position-sticky top-0 shadow pt-3 pb-3 z-3">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <div class="navbar-brand">
+            <img src="assest/images/logo.svg" alt="" />
+          </div>
+          <button
+            class="navbar-toggler border-0"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#header-offcanvas"
+            type="button"
+          >
+            <i class="fa-solid fa-bars-staggered fs-2"></i>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto text-white head-font">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item"><a href="#about" class="nav-link">About us</a></li>
+              <li class="nav-item"><a href="#service" class="nav-link">Services</a></li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header over -->
+    <!-- offcanvas header -->
+    <div class="offcanvas offcanvas-start" id="header-offcanvas">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title">
+          <img src="assest/images/logo.svg" alt="" />
+        </h2>
+        <button
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          type="button"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto text-white head-font">
+          <li class="nav-item grad-li"><a href="" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- main start -->
+    <main>
+      <!--intro section -->
+      <section class="mt-5 mb-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7">
+              <div class="home-intro">
+                <h6>Introduction</h6>
+                <h2>
+                  I'm Nimeet Bhatiya
+                  <h1 class="display-1 fw-semibold">a <span class="text-theme" id="changingText">Devloper& UI Expert</span></h1>
+                </h2>
+                <p>
+                  I design and develop services for customers of all sizes,
+                  specializing in creating stylish, modern websites, web
+                  services and online stores. My passion is to design digital
+                  user experiences through the bold interface and meaningful
+                  interactions.
+                </p>
+                <div class="d-flex exp">
+                  <div class="exp-box">
+                    <h5>10+</h5>
+                    <span
+                      >YEARS
+                      <br />
+                      OF EXPERIENCE
+                    </span>
+                  </div>
+                  <div class="exp-box">
+                    <h5>296+</h5>
+                    <span
+                      >PROJECTS
+                      <br />
+                      COMPLETED
+                    </span>
+                  </div>
+                </div>
+                <div class="btn-res">
+                  <a href="" class="cv-rs"
+                    >Browse Resume
+                    <i class="ri-arrow-right-up-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="home-image w-100">
+                <img src="assest/images/intro.jpg" alt="" class="img-fluid w-100" />
+              </div>
+            </div>
+          </div>
+          <div class="hr-line w-100 mt-5 mb-5"></div>
+        </div>
+      </section>
+      <!-- intro section end -->
+      <!-- services section start -->
+      <section class="mt-5" id="service">                                      
+        <div class="container">
+          <div class="services text-center">
+            <h6><span class="text-theme">Services</span></h6>
+            <h3 class="mt-4">Services provide for you</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor <br />incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="row row-gap-4">
+            <div class="col-sm-6 col-lg-4">
+              <div class="card ser-cd shadow-lg">
+                <div class="d-flex">
+                  <div
+                    class="icon justify-content-center align-items-center d-inline-flex"
+                  >
+                    <i class="ri-smartphone-line"></i>
+                  </div>
+                  <div class="ser-con">
+                    <h5>Web Design</h5>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card ser-cd shadow-lg">
+                <div class="d-flex">
+                  <div
+                    class="icon justify-content-center align-items-center d-inline-flex"
+                  >
+                    <i class="ri-macbook-line"></i>
+                  </div>
+                  <div class="ser-con">
+                    <h5>Devlopment</h5>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card ser-cd shadow-lg">
+                <div class="d-flex">
+                  <div
+                    class="icon justify-content-center align-items-center d-inline-flex"
+                  >
+                    <i class="ri-triangle-line"></i>
+                  </div>
+                  <div class="ser-con">
+                    <h5>SEO Marketing</h5>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card ser-cd shadow-lg">
+                <div class="d-flex">
+                  <div
+                    class="icon justify-content-center align-items-center d-inline-flex"
+                  >
+                    <i class="ri-layout-3-line"></i>
+                  </div>
+                  <div class="ser-con">
+                    <h5>Web Design</h5>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card ser-cd shadow-lg">
+                <div class="d-flex">
+                  <div
+                    class="icon justify-content-center align-items-center d-inline-flex"
+                  >
+                    <i class="ri-flip-vertical-fill"></i>
+                  </div>
+                  <div class="ser-con">
+                    <h5>Devlopment</h5>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card ser-cd shadow-lg">
+                <div class="d-flex">
+                  <div
+                    class="icon justify-content-center align-items-center d-inline-flex"
+                  >
+                    <i class="ri-global-line"></i>
+                  </div>
+                  <div class="ser-con">
+                    <h5>SEO Marketing</h5>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hr-line w-100 mt-5 mb-5"></div>
+        </div>
+      </section>
+      <!-- services section end -->
+      <!-- portfolio section start -->
+      <section class="mt-5" id="portfolio">
+        <div class="container">
+          <div class="services text-center">
+            <h6><span class="text-theme">Portfolio</span></h6>
+            <h3 class="mt-4">My Latest Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor <br />incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <!-- <button
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide-to="2"
+                aria-label="Slide 3" -->
+              </button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <div class="row gap-lg-0 gap-3">
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top h-75">
+                        <img src="assest/images/main.jpg" alt="" class="w-100 img-fluid" />
+                      </div>
+                      <div class="card-body">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top h-75">
+                        <img src="assest/images/sant.jpeg" alt="" class="w-100 img-fluid"/>
+                      </div>
+                      <div class="card-body bg-transparent">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top h-75">
+                        <img src="assest/images/htm.jpeg" alt="" class="w-100 img-fluid" />
+                      </div>
+                      <div class="card-body">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row gap-lg-0 gap-3">
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top">
+                        <img src="assest/images/main.jpg" alt="" class="w-100 img-fluid" />
+                      </div>
+                      <div class="card-body">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top">
+                        <img src="assest/images/sant.jpeg" alt="" class="w-100 img-fluid" />
+                      </div>
+                      <div class="card-body bg-transparent">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top">
+                        <img src="assest/images/htm.jpeg" alt="" class="w-100 img-fluid" />
+                      </div>
+                      <div class="card-body">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item" data-bs-interval="2000">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top">
+                        <img src="assest/images/p1.jpg" alt="" class="w-100" />
+                      </div>
+                      <div class="card-body">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top">
+                        <img src="assest/images/p1.jpg" alt="" class="w-100" />
+                      </div>
+                      <div class="card-body bg-transparent">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-img-top">
+                        <img src="assest/images/p1.jpg" alt="" class="w-100" />
+                      </div>
+                      <div class="card-body">
+                        <span class="card-title">web design</span>
+                        <h4 class="card-sub-title">
+                          Website Design for Marketing Agency Startup
+                        </h4>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fuga fugiat alias aliquid neque amet earum
+                          mollitia velit? Nisi, totam enim quis autem ad dolorem
+                          pariatur laudantium beatae eveniet animi. Aliquam!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="hr-line w-100 mt-5 mb-5"></div>
+        </div>
+      </section>
+      <!-- devlopment section start -->
+      <section class="mt-5" id="skills">
+        <div class="container">
+          <div class="services text-center cont">
+            <h6><span class="text-theme">Skills</span></h6>
+            <h3  class="mt-4">Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor <br />incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="pr-content">
+                <span class="subtitle text-danger">FEATURES</span>
+                <h4 class="main-title">DESIGN SKILLS</h4>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">Photoshoot</h6>
+                <h6 class="heading heading-h6">100%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 100%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">Figma</h6>
+                <h6 class="heading heading-h6">95%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 95%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">Adobe XD</h6>
+                <h6 class="heading heading-h6">60%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 60%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">Adobe Illustrator</h6>
+                <h6 class="heading heading-h6">40%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 40%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">Design</h6>
+                <h6 class="heading heading-h6">70%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="pr-content">
+                <span class="subtitle text-danger">FEATURES</span>
+                <h4 class="main-title">DEVLOPMNET SKILLS</h4>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">HTML</h6>
+                <h6 class="heading heading-h6">100%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 100%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">CSS</h6>
+                <h6 class="heading heading-h6">95%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 95%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">JQUERY</h6>
+                <h6 class="heading heading-h6">70%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 70%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">BOOTSTRAP</h6>
+                <h6 class="heading heading-h6">85%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 85%"></div>
+              </div>
+              <div
+                class="bar d-flex justify-content-between align-items-center"
+              >
+                <h6 class="heading heading-h6">Javascript</h6>
+                <h6 class="heading heading-h6">60%</h6>
+              </div>
+              <div class="progress" role="progressbar">
+                <div class="progress-bar rounded" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="pr-content">
+            <span class="subtitle">features</span>
+            <h4 class="title">DEVLOPMENT SKILLS</h4>
+          </div> -->
+          <div class="hr-line w-100 mt-5 mb-5"></div>
+        </div>
+      </section>
+      <!-- devlopmnet progress section end -->
+      <!-- biography section class -->
+      <section class="mt-5" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="home-img mb-5">
+                <img
+                  src="assest/images/rou.jpg"
+                  alt=""
+                  class=" w-100"
+
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="bio mb-5">
+                <h3 class="grad-li">BIOGRAPHY</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Suscipit, dolorem possimus, reprehenderit quaerat dolor
+                  perferendis expedita.
+                </p>
+              </div>
+              <div class="edu mt-5">
+                <h3 class="grad-li">EDUCATION</h3>
+                <div class="con d-flex justify-content-between">
+                  <div class="cd">
+                    <h5>Creative Director</h5>
+                    <p>pdraft university <br />2021</p>
+                  </div>
+                  <div class="cd">
+                    <h5>UI/UX Design</h5>
+                    <p>pdraft university <br />2018</p>
+                  </div>
+                </div>
+                <div class="cd mb-5">
+                  <h5>UI/UX Design</h5>
+                  <p>pdraft university <br />2015</p>
+                </div>
+              </div>
+              <div class="exp mt-5">
+                <h3 class="grad-li">EXPERIENCE</h3>
+                <div class="con d-flex justify-content-between">
+                  <div class="cd">
+                    <h5>Creative Director</h5>
+                    <p>NY, UK</p>
+                  </div>
+                  <div class="cd">
+                    <h5>UI/UX Designer</h5>
+                    <p>Pxdraft, ltd, UK</p>
+                  </div>
+                </div>
+                <div class="con d-flex justify-content-between mb-5">
+                  <div class="cd">
+                    <h5>Design Internship</h5>
+                    <p>Pxdraft Studio, UK</p>
+                  </div>
+                  <div class="cd">
+                    <h5>front-end Intern</h5>
+                    <p>Pxdraft, UK</p>
+                  </div>
+                </div>
+                <div class="co-to d-flex justify-content-between mt-5">
+                  <div class="co">
+                    <h3 class="grad-li">Comptences</h3>
+                    <ul>
+                      <li>Web Development</li>
+                      <li>UX / UI Design</li>
+                      <li>Fullstack</li>
+                      <li>React Devloper</li>
+                      <li>Video Creator</li>
+                    </ul>
+                  </div>
+                  <div class="to">
+                    <h3 class="grad-li">Tools</h3>
+                    <ul>
+                      <li>HTML - CSS - JS</li>
+                      <li>Sketch</li>
+                      <li>Vs Code</li>
+                      <li>Figma</li>
+                      <li>Adobe Photoshop</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hr-line w-100 mt-5 mb-5"></div>
+        </div>
+      </section>
+      <!-- contact section start-->
+      <section class="mt-5" id="contact">
+        <div class="container">
+          <div class="services text-center cont">
+            <h6><span class="text-theme">Contact</span></h6>
+            <h3  class="mt-4">Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor <br />incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="c-form">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-floating mb-3">
+                      <input
+                        type="email"
+                        class="form-control bg-transparent border-1 shadow"
+                        id="floatingInput"
+                        style="width: px"
+                        placeholder="name@example.com"
+                      />
+                      <label for="floatingInput" class="bg-none">Name *</label>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-floating">
+                      <input
+                        type="password"
+                        class="form-control bg-transparent border-1 shadow"
+                        id="floatingPassword"
+                        placeholder="Password"
+                      />
+                      <label for="floatingPassword">E-mail *</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control bg-transparent border-1 shadow"
+                    id="floatingInput"
+                    style="width: px"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Subject *</label>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control bg-transparent border-1 shadow"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 150px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Your Message *</label>
+                </div>
+                <div class="send mt-4">
+                  <button class="sed">send Message
+                    <i class="ri-arrow-right-up-line"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5 text-center justify-content-center">
+            <div class="col-md-4">
+              <div class="loc ">
+                <div class="ico">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h5>Visit My Studio</h5>
+                <p>Warnwe Park Streetperrine,<br>
+                  FL 33157 New York City</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="loc ">
+                <div class="ico">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <h5>Phone</h5>
+                <p>Warnwe Park Streetperrine,<br>
+                  FL 33157 New York City</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="loc ">
+                <div class="ico">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h5>Mail</h5>
+                <p>Warnwe Park Streetperrine,<br>
+                  FL 33157 New York City</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section start -->
+    <footer class="py-3 px-4 text-center text-white ">
+        <span>Created By <a href="#" class="" style="color: #66FCF1;">Nimeet Bhatiya</a> | <span
+                class="far fa-copyright"></span> 2024
+            All rights
+            reserved.
+          </span>
+          <a href="https://www.instagram.com/" class="nav-link"><i class="fa-brands fa-instagram float-end ms-2"></i></a>
+          <a href="https://www.facebook.com/" class="nav-link"><i class="fa-brands fa-facebook float-end ms-2"></i></a>
+          <a href="https://www.facebook.com/" class="nav-link"><i class="fa-brands fa-x-twitter float-end ms-2"></i></a>
+      
+      </footer>
+    <!-- jquery -->
+    <script src="assest/js/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap jquery -->
+    <script src="assest/js/bootstrap.min.js"></script>
+    <!-- main js -->
+     <script src="assest/js/main.js"></script>
+  </body>
+</html>
